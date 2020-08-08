@@ -169,20 +169,19 @@ font-weight: 500;
   line-height: 45px;
 }
 
-
-#video{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
+.video-responsive {
+max-height: 300px;
+display: flex;
+margin-right: auto;
+margin-left: auto;
 }
 
-#video iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+#video {
+margin-top: 30px;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: auto;
+padding-bottom: 30px;
 }
 
 main {
@@ -201,13 +200,12 @@ main {
   }
 }
 
+
 #title {
   margin-bottom: 5px;
   display: flex;
   justify-content: center;
   font-size: 30px; 
-  display: flex;
-  justify-content: center; 
 }
 
 .gif-abajo {
@@ -216,15 +214,13 @@ main {
   padding: 5px;
   border-radius: 15px;
   margin-bottom: 10px;
-  display: flex;
+  display: inherit;
   justify-content: center;
   }
 
 #description {
 font-size: 20px;
 font-family: raleway;
-display: flex;
-justify-content: center;
 }
 
 #survey-form {
@@ -234,6 +230,7 @@ height: auto;
 margin: 40px;
 margin-left: auto;
 margin-right: auto;
+margin-top: 40px;
 border-radius: 30px;
 padding: 10px;
 font-family: Glacial indifference;
@@ -371,6 +368,7 @@ h4 {
 
   #footer a {
     color: #603F8B;
+    margin: 0;
     }
 
   #footer i:hover {
